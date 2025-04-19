@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Turtle Finance</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background: linear-gradient(to bottom, #e6f7f1, #ffffff);
+      color: #0f172a;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background: #fff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .logo img {
+      height: 36px;
+    }
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: #0f172a;
+      font-weight: 500;
+    }
+    .login-button {
+      padding: 0.5rem 1rem;
+      background: #0f172a;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+      text-align: center;
+    }
+    main {
+      text-align: center;
+      padding: 4rem 1rem;
+    }
+    main h1 {
+      font-size: 3rem;
+      font-weight: 800;
+    }
+    main h1 span {
+      color: #059669;
+    }
+    main p {
+      margin: 1rem 0 2rem;
+      color: #4b5563;
+      font-size: 1.1rem;
+    }
+    .btns {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .btn {
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      font-weight: 600;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    .primary-btn {
+      background: #0f172a;
+      color: white;
+    }
+    .secondary-btn {
+      background: white;
+      color: #0f172a;
+      border: 1px solid #d1d5db;
+    }
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 5rem;
+      padding: 3rem 0;
+      text-align: center;
+    }
+    .stats h2 {
+      color: #059669;
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    .trusted-companies {
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    .trusted-companies h3 {
+      margin-bottom: 2rem;
+      font-size: 1.5rem;
+    }
+    .logos {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+      align-items: center;
+    }
+    .logos img {
+      height: 50px;
+    }
+    .services {
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+    .services h2 {
+      margin-bottom: 2rem;
+      font-size: 2rem;
+    }
+    .cards {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      width: 250px;
+    }
+    .card-icon {
+      background: #d1fae5;
+      padding: 0.75rem;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+    .cta {
+      background: #059669;
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+      border-radius: 1rem;
+      margin: 3rem 1rem;
+    }
+    .cta h2 {
+      margin-bottom: 1rem;
+      font-size: 1.8rem;
+    }
+    .cta p {
+      margin-bottom: 1.5rem;
+    }
+    .cta button {
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      color: #059669;
+      background: white;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #4b5563;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="hello.png" alt="Turtle Logo">
+    </div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="https://www.turtlefinance.in/about-us" target="_blank">About</a>
+      <a href="https://www.turtlefinance.in/workshop" target="_blank">Explore</a>
+      <a href="https://calendly.com/event_types/user/me" target="_blank">Calendly</a>
+      <a href="https://open.spotify.com/show/4BKhPdfq3BzfhQ60qQRO8g" target="_blank" class="login-button">Turtle Tales</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Smart Financial Solutions <br><span>for a Steady Future</span></h1>
+    <p>Join Turtle Finance for stable, long-term growth. We help you manage your<br>wealth with confidence and peace of mind.</p>
+    <div class="btns">
+      <button class="btn primary-btn">Get Started →</button>
+      <button class="btn secondary-btn">Learn More</button>
+    </div>
+  </main>
+
+  <section class="stats">
+    <div><h2>$2.5B+</h2><p>Assets Managed</p></div>
+    <div><h2>15,000+</h2><p>Happy Clients</p></div>
+    <div><h2>98%</h2><p>Client Retention</p></div>
+  </section>
+
+  <section class="trusted-companies">
+    <h3>Engaged Professionals from Top Companies & Communities</h3>
+    <div class="logos">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google">
+      <img src="hellld.png" alt="McKinsey">
+      <img src="dell.png" alt="Swiggy">
+      <img src="chotu.png" alt="GrowthX">
+      <img src="htot.png" alt="Razorpay Rize">
+    </div>
+  </section>
+
+  <section class="services">
+    <h2>Our Financial Services</h2>
+    <div class="cards">
+      <div class="card">
+        <div class="card-icon">📈</div>
+        <h3>Investment Planning</h3>
+        <p>Strategic investment solutions tailored to your goals</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🛡️</div>
+        <h3>Wealth Protection</h3>
+        <p>Secure your assets with comprehensive protection plans</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">📊</div>
+        <h3>Market Analysis</h3>
+        <p>Expert insights and market trend analysis</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">👥</div>
+        <h3>Retirement Planning</h3>
+        <p>Secure your future with strategic retirement plans</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Ready to Secure Your Financial Future?</h2>
+    <p>Take the first step towards financial freedom. Schedule a consultation with our experts today.</p>
+    <button>Schedule a Call</button>
+  </section>
+
+  <footer>
+    Made with ❤️ by Vaibhav
+  </footer>
+</body>
+</html>
