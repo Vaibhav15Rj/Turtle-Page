@@ -7,4 +7,4 @@ At Turtle Finance, we believe in long-term wealth planning backed by insights, s
 
 Start your financial journey with confidence — the Turtle way.
 
-Link : https://vaibhav15rj.github.io/Turtle-Page/
+Link : https://turtlefinancevrj.netlify.app/
